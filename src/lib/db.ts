@@ -1,4 +1,4 @@
-import "pg";
+import pg from "pg"; // 1. Import pg explicitly
 import { Sequelize } from "sequelize";
 
 /**
